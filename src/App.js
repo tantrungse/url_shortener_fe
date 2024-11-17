@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Copy, ArrowRight, ExternalLink } from 'lucide-react';
 
-const API_BASE_URL = 'https://url-shortener-api-d47008a21693.herokuapp.com';
+const API_BASE_URL = 'https://url-shortener-api-d47008a21693.herokuapp.com/api/v1';
 
 const URLShortener = () => {
   const [originalUrl, setOriginalUrl] = useState('');
